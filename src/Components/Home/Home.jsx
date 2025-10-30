@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
+
+import Values from "../values/Values";
 import Category from "../Category/Category";
 
 function Home() {
@@ -9,6 +11,7 @@ function Home() {
       <Navbar />
       <Hero />
       <Category />
+      <Values />
     </>
   );
 }
