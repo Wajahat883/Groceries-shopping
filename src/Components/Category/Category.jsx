@@ -25,7 +25,7 @@ function Category() {
   return (
     <section className="py-20 px-6 sm:px-10">
       <div className="max-w-[1400px] mx-auto px-30">
-        <Heading highlight="Shop" heading="Category!" />
+        <Heading highlight="Shop " heading="Category!" />
         <div
           className="
             grid 
