@@ -11,8 +11,8 @@ import Friedfish from "../../assets/Friedfish.jpeg";
 import Graps from "../../assets/graps.jpeg";
 
 import Green from "../../assets/green.jpeg";
-import GreenChilli from "../../assets/greenchilli.jpeg";
-import Kobhi from "../../assets/kobhi.jpeg";
+import GreenChilli from "../../assets/greenchilli.jpg";
+import Kobhi from "../../assets/kobhi.jpg";
 import Legs from "../../assets/LegsCrab.jpeg";
 import Mango from "../../assets/mango.jpeg";
 import matar from "../../assets/matar.jpg";
@@ -29,45 +29,46 @@ import Water from "../../assets/water.jpeg";
 import yougrt from "../../assets/yougrt.jpg";
 
 export const ProductList = [
+  // Fruits
   {
     id: 1,
     name: "Apple",
-    price: 300,
+    price: 250,
     category: "Fruits",
     image: Apple,
   },
   {
     id: 2,
     name: "Banana",
-    price: 300,
+    price: 120,
     category: "Fruits",
     image: Banana,
   },
   {
     id: 3,
     name: "Mango",
-    price: 300,
+    price: 350,
     category: "Fruits",
     image: Mango,
   },
   {
     id: 4,
     name: "StrawBarry",
-    price: 300,
+    price: 500,
     category: "Fruits",
     image: Stw,
   },
   {
     id: 5,
     name: "PineApple",
-    price: 300,
+    price: 400,
     category: "Fruits",
     image: Pineapple,
   },
   {
     id: 6,
     name: "Graps",
-    price: 300,
+    price: 220,
     category: "Fruits",
     image: Graps,
   },
@@ -81,98 +82,102 @@ export const ProductList = [
   {
     id: 8,
     name: "DragonFruite",
-    price: 300,
+    price: 700,
     category: "Fruits",
     image: Drangfruit,
   },
   {
     id: 9,
     name: "Orange",
-    price: 300,
+    price: 180,
     category: "Fruits",
     image: orange,
   },
+
+  // Vegetables
   {
     id: 10,
     name: "Kobhi",
-    price: 300,
+    price: 100,
     category: "vegetable",
     image: Kobhi,
   },
   {
     id: 11,
     name: "Tomato",
-    price: 300,
+    price: 120,
     category: "vegetable",
     image: Tomato,
   },
   {
     id: 12,
     name: "Potato",
-    price: 300,
+    price: 90,
     category: "vegetable",
     image: Potato,
   },
   {
     id: 13,
     name: "Green Chilli",
-    price: 300,
+    price: 150,
     category: "vegetable",
     image: GreenChilli,
   },
   {
     id: 14,
     name: "ShimlaMirch",
-    price: 300,
+    price: 180,
     category: "vegetable",
     image: Mrchii,
   },
   {
     id: 15,
-    name: "onion",
-    price: 300,
+    name: "Onion",
+    price: 110,
     category: "vegetable",
     image: onion,
   },
   {
     id: 16,
     name: "Danhiya",
-    price: 300,
+    price: 60,
     category: "vegetable",
     image: Green,
   },
   {
     id: 17,
     name: "Carrot",
-    price: 300,
+    price: 130,
     category: "vegetable",
     image: Carrot,
   },
   {
     id: 18,
     name: "Matar",
-    price: 300,
+    price: 160,
     category: "Vegetable",
     image: matar,
   },
+
+  // Dairy
   {
     id: 19,
     name: "Yogurt",
-    price: 300,
+    price: 220,
     category: "Dairy",
     image: yougrt,
   },
   {
     id: 20,
     name: "Butter",
-    price: 300,
+    price: 450,
     category: "Dairy",
     image: Butter,
   },
   {
     id: 21,
     name: "Milk",
-    price: 300,
+    price: 180,
     category: "Dairy",
     image: Milk,
   },
@@ -186,42 +191,44 @@ export const ProductList = [
   {
     id: 23,
     name: "Bread",
-    price: 300,
+    price: 140,
     category: "Dairy",
     image: Bread,
   },
   {
     id: 24,
     name: "StrawBarry-Jam",
-    price: 300,
+    price: 500,
     category: "Dairy",
     image: Stwj,
   },
   {
     id: 25,
     name: "Cheeze",
-    price: 300,
+    price: 480,
     category: "Dairy",
     image: Cheeze,
   },
+
+  // SeaFood
   {
     id: 27,
     name: "Crab",
-    price: 300,
+    price: 1200,
     category: "SeaFood",
     image: Crab,
   },
   {
     id: 28,
     name: "Crabs-Leg",
-    price: 300,
+    price: 1500,
     category: "SeaFood",
     image: Legs,
   },
   {
     id: 29,
     name: "Friedfish",
-    price: 300,
+    price: 900,
     category: "SeaFood",
     image: Friedfish,
   },

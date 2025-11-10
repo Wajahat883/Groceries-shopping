@@ -1,9 +1,23 @@
 import React, { useState } from "react";
 import Heading from "../Heading/Heading";
+import { ProductList } from "./ProductList";
+import Cards from "../Cards/Cards";
 
 function Products() {
   const category = ["All", "Fruits", "Vegetables", "Dairy", "SeaFood"];
   const [activeTabs, setActiveTabs] = useState("All");
+
+  const renderCards = ProductList.map((product) => {
+    return (
+      <Cards
+        key={product.id}
+        image={product.image}
+        title={product.name}
+        price={product.price}
+      />
+    );
+  });
+
   return (
     <>
       <section>
@@ -25,6 +39,8 @@ function Products() {
               </button>
             ))}
           </div>
+
+          <div className="grid grid-cols-4 gap-9 mt-20">{renderCards}</div>
         </div>
       </section>
     </>
