@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 
 import Values from "../values/Values";
 import Category from "../Category/Category";
+import Products from "../Products/Products";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Hero />
       <Category />
       <Values />
+      <Products />
     </>
   );
 }
