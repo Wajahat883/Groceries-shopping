@@ -7,6 +7,8 @@ import Category from "../Category/Category";
 import Products from "../Products/Products";
 import Discount from "../Discount/Discount";
 import Process from "../Process/Process";
+import Testimonial from "../Testimonials/Testimonial";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
       <Products />
       <Discount />
       <Process />
+      <Testimonial />
+      <Footer />
     </>
   );
 }

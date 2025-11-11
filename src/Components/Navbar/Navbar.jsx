@@ -82,7 +82,6 @@ function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <ul
           className={`flex md:hidden w-[330px] h-[350px]  rounded-xl  absolute gap-y-12 top-30 left-1/2 transform -translate-x-1/2 flex-col backdrop-blur-xl items-center  py-5   bg-orange-200/70 transition-all duration-500 ${

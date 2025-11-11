@@ -5,8 +5,9 @@ import Cards from "../Cards/Cards";
 import Button from "../Button/Button";
 
 function Products() {
-  const category = ["All", "Fruits", "Vegetables ", "Dairy", "SeaFood"];
+  const category = ["All", "Fruits", "Dairy", "SeaFood", "Vegetables"];
   const [activeTabs, setActiveTabs] = useState("All");
+  console.log("activetab: ", activeTabs);
 
   const filterItem =
     activeTabs === "All"
