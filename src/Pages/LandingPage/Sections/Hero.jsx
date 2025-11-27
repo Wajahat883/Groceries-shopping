@@ -1,6 +1,6 @@
 import React from "react";
-import Grocery from "../../assets/Grocery.png";
-import Button from "../Button/Button";
+import Grocery from "../../../assets/Grocery.png";
+import Button from "../../../Components/Button/Button";
 
 function Hero() {
   return (

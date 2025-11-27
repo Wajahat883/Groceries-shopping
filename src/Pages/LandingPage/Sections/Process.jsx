@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "../Heading/Heading";
-import { List } from "./ProcessList";
+import Heading from "../../../Components/Heading/Heading";
+import { List } from "../../../Constants/ProcessList";
 
 function Process() {
   const renderSteps = List.map((item) => (

@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Button/Button";
-import Discounts from "../../assets/fresh.png";
+import Button from "../../../Components/Button/Button";
+import Discounts from "../../../assets/fresh.png";
 
 function Discount() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import Heading from "../Heading/Heading";
-import { ValueData } from "./ValueData.jsx";
-import MidF from "../../assets/MidF.jpg";
-import Saftey from "../../assets/Saftey.jpg";
+import Heading from "../../../Components/Heading/Heading.jsx";
+import { ValueData } from "../../../Constants/ValueData.jsx";
+import MidF from "../../../assets/MidF.jpg";
+import Saftey from "../../../assets/Saftey.jpg";
 
 function Values() {
   const leftValues = ValueData.slice(0, 2).map((item, index) => {

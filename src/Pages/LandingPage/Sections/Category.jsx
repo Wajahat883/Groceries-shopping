@@ -1,7 +1,8 @@
 import React from "react";
-import Heading from "../Heading/Heading";
-import { category } from "./CategoryData";
-import Button from "../Button/Button";
+import Heading from "../../../Components/Heading/Heading";
+import { category } from "../../../Constants/CategoryData";
+// import Button from "../../Button/Button";
+import { Link } from "react-router-dom";
 
 function Category() {
   const renderCards = category.map((card, index) => (
@@ -17,7 +18,13 @@ function Category() {
       <div className="bg-zinc-100 pt-7 p-6 rounded-b-2xl flex flex-col justify-between flex-grow">
         <h1 className="font-bold text-lg mb-2">{card.title}</h1>
         <p className="font-semibold text-zinc-600 mb-4">{card.description}</p>
-        <Button content="See All" />
+        <Link
+          to={card.path}
+          className="bg-gradient-to-b bg-orange-400  hover:from-orange-500
+       rounded-2xl text-lg text-white px-8 py-3 hover:scale-105 hover:to-orange-300 transition-all duration-300 cursor-pointer"
+        >
+          See All
+        </Link>
       </div>
     </div>
   ));

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Heading from "../Heading/Heading";
-import { ProductList } from "./ProductList";
-import Cards from "../Cards/Cards";
-import Button from "../Button/Button";
+import Heading from "../../../Components/Heading/Heading";
+import { ProductList } from "../../../Constants/ProductList";
+import Cards from "../../../Components/Cards/Cards";
+import { Link } from "react-router-dom";
 
 function Products() {
   const category = ["All", "Fruits", "Dairy", "SeaFood", "Vegetables"];
@@ -49,7 +49,13 @@ function Products() {
 
           <div className="grid grid-cols-4 gap-9 mt-20">{renderCards}</div>
           <div className=" mt-15 mx-auto w-fit">
-            <Button content="View All" />
+            <Link
+              to="/allproducts"
+              className="bg-gradient-to-b bg-orange-400  hover:from-orange-500
+       rounded-2xl text-lg text-white px-8 py-3 hover:scale-105 hover:to-orange-300 transition-all duration-300 cursor-pointer"
+            >
+              View All
+            </Link>
           </div>
         </div>
       </section>
