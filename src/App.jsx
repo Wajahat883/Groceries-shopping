@@ -1,10 +1,11 @@
 import React from "react";
 import LandingPage from "./Pages/LandingPage/Index";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Form, RouterProvider } from "react-router-dom";
 import Fruites from "./Components/Fruites/Fruites";
 import Dairy from "./Components/Dairy/Dairy";
 import SeaFoods from "./Components/SeaFoods/SeaFoods";
 import AllProducts from "./Components/AllProducts/AllProducts";
+import Forms from "./Pages/Auth/Form";
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +28,10 @@ function App() {
     {
       path: "/allproducts",
       element: <AllProducts />,
+    },
+    {
+      path: "/pages",
+      element: <Forms />,
     },
   ]);
   return (

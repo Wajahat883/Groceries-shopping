@@ -1,6 +1,7 @@
 import React from "react";
 import Grocery from "../../../assets/Grocery.png";
-import Button from "../../../Components/Button/Button";
+// import Button from "../../../Components/Button/Button";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -21,9 +22,13 @@ function Hero() {
             always fresh, healthy, and naturally grown.
           </p>
 
-          <div className="flex justify-center lg:justify-start">
-            <Button content="Shop Now" />
-          </div>
+          <Link
+            to="/pages"
+            className="bg-gradient-to-b bg-orange-400  hover:from-orange-500
+       rounded-2xl text-lg text-white px-8 py-3 hover:scale-105 hover:to-orange-300 transition-all duration-300 cursor-pointer"
+          >
+            Shop Now
+          </Link>
         </div>
 
         <div className="flex-1 flex justify-center items-center">
